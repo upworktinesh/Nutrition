@@ -6,13 +6,13 @@
 //
 
 import Foundation
-
+import SwiftyJSON
 public class Nutrition {
     
     // Properties
     public var textEntry: String?
     public let APIManager = NetworkManager.shared
-    public static let shared = InitializerCl()
+    public static let shared = Nutrition()
     
     
     //    MARK:- Get Tags for entered Text

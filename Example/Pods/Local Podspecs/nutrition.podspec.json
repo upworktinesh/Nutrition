@@ -1,8 +1,8 @@
 {
   "name": "nutrition",
   "version": "0.1.0",
-  "summary": "A short description of nutrition.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A short description of nutrition. for POC of a algorithm",
+  "description": "This is a demonstration for poc of a algotithm",
   "homepage": "https://github.com/upworktinesh/nutrition",
   "license": {
     "type": "MIT",
@@ -12,11 +12,21 @@
     "upworktinesh": "upworktinesh@gmail.com"
   },
   "source": {
-    "git": "https://github.com/upworktinesh/nutrition.git",
+    "git": "https://github.com/upworktinesh/nutritionPod.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "nutrition/Classes/**/*"
+  "source_files": "Classes/**/*.swift",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.4"
+    ],
+    "SwiftyJSON": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

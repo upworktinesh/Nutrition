@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'nutrition'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of nutrition. for POC of a algorithm'
+  s.summary          = 'nutrition pod is for POC of a algorithms.dependency, this pod will be updated letter.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,22 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-This is a demonstration for poc of a algotithm
-DESC
+                        This is a demonstration for poc of a algotithm. This pod willbe updated letter now this is it's first commit.
+                        DESC
 
   s.homepage         = 'https://github.com/upworktinesh/nutrition'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'upworktinesh' => 'upworktinesh@gmail.com' }
-  s.source           = { :git => 'https://github.com/upworktinesh/nutritionPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/upworktinesh/nutrition.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Classes/**/*.swift
+  s.source_files = 'Classes/**/*.swift'
   s.swift_version = '5.0'
   s.platforms = {
-      "ios" : "9.0"
+      "ios": "9.0"
   }
 #  s.source_files = 'nutrition/Classes/**/*'
   
@@ -43,5 +43,6 @@ DESC
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire', '~> 4.4'
+  s.dependency 'SwiftyJSON'
 end

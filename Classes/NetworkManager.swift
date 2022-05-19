@@ -23,7 +23,7 @@ public class NetworkManager {
     
     //    MARK:- Get Tags API
     func GetTags(for RawText: String,Completion:@escaping(_ success:[JSON]?,_ error: Error?)->()){
-        var urlWithParameters = self.BASE_URL+self.getTags+RawText.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
+        let urlWithParameters = self.BASE_URL+self.getTags+RawText.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
         Alamofire.request(urlWithParameters, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil)
             .validate()
             .responseJSON { response in
