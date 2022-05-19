@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F19ECD701EA48F6CEB24419 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1F19ECD701EA48F6CEB24419 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* nutrition_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nutrition_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		A471D2306697F12A7CC4118A /* Pods-nutrition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutrition_Tests.debug.xcconfig"; path = "Target Support Files/Pods-nutrition_Tests/Pods-nutrition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7065BEF335397F562603A91 /* Pods_nutrition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nutrition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94B2D308DAF339B889776B3 /* Pods_nutrition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nutrition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEE373A428C61FBE2F6CB149 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BEE373A428C61FBE2F6CB149 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C653BDEEF9994D92C4F49C27 /* Pods-nutrition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutrition_Tests.release.xcconfig"; path = "Target Support Files/Pods-nutrition_Tests/Pods-nutrition_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CBC4D1A31E0D7804BBC4C3C9 /* nutrition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = nutrition.podspec; path = ../nutrition.podspec; sourceTree = "<group>"; };
+		CBC4D1A31E0D7804BBC4C3C9 /* nutrition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = nutrition.podspec; path = ../nutrition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F1FCC186C1DC76EF9CA99B63 /* Pods-nutrition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutrition_Example.release.xcconfig"; path = "Target Support Files/Pods-nutrition_Example/Pods-nutrition_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				A471D2306697F12A7CC4118A /* Pods-nutrition_Tests.debug.xcconfig */,
 				C653BDEEF9994D92C4F49C27 /* Pods-nutrition_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

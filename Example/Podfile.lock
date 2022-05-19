@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - nutrition (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - nutrition (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  nutrition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  nutrition: 6de9e4849dc108096c65e1a496fd92722470a721
+
+PODFILE CHECKSUM: 5e819b72e84aafff5c54afc67360f95708dc2707
+
+COCOAPODS: 1.11.3

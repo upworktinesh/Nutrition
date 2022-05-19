@@ -1,0 +1,22 @@
+{
+  "name": "nutrition",
+  "version": "0.1.0",
+  "summary": "A short description of nutrition.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/upworktinesh/nutrition",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "upworktinesh": "upworktinesh@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/upworktinesh/nutrition.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "nutrition/Classes/**/*"
+}
