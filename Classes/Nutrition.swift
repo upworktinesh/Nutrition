@@ -7,27 +7,25 @@
 
 import Foundation
 import SwiftyJSON
+
 public class Nutrition {
     
     // Properties
     public var textEntry: String?
-    public let APIManager = NetworkManager.shared
+    internal let APIManager = NetworkManager.shared
     public static let shared = Nutrition()
     
     
     //    MARK:- Get Tags for entered Text
-    public func getTgs()-> ([JSON]?,Error?){
-//        return self.NM.GetTags(for: self.textEntry!)
-        var int : [JSON]?
-        var err :Error?
+//    public func getTgs()-> ([JSON]?,Error?){
+    public func getTags(completion:@escaping(_ success:[JSON]?, _ error: Error?)->()){
         self.APIManager.GetTags(for: self.textEntry!) { success, error in
             guard let json = success else {
-                err = error
+                completion(nil,error)
                 return
             }
-            int = json
+            completion(json,nil)
         }
-        return(int,err)
     }
     
     
